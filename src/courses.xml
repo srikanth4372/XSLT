@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<courses>
+	<course title="Intro to Database">
+		<students>
+			<student id="123">
+				<first>Srikanth</first>
+				<last>Pragallapati</last>
+				<username>srikanth4372</username>
+			</student>
+			<student id="345">
+				<first>Raghu</first>
+				<last>Bandi</last>
+				<username>rbandi</username>
+			</student>
+		</students>
+	</course>
+	<course title="Web Development">
+	    <students>
+	        <student id="858">
+	            <first>Hello</first>
+	            <last>Sample</last>
+	            <username>Test</username>
+	        </student>
+	         <student id="758">
+	            <first>Hello1</first>
+	            <last>Sample1</last>
+	            <username>Test1</username>
+	        </student>
+	    </students>
+	</course>
+</courses>
