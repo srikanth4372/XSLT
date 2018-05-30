@@ -1,22 +1,29 @@
-<?xml version="1.0" encoding="UTF-8"?><students xmlns:xslt="http://xml.apache.org/xslt">
-    <student id="123">
-        <firstname>Srikanth</firstname>
-        <lastname>Pragallapati</lastname>
-        <username>srikanth4372</username>
-    </student>
-    <student id="345">
-        <firstname>Raghu</firstname>
-        <lastname>Bandi</lastname>
-        <username>rbandi</username>
-    </student>
-    <student id="858">
-        <firstname>Hello</firstname>
-        <lastname>Sample</lastname>
-        <username>Test</username>
-    </student>
-    <student id="758">
-        <firstname>Hello1</firstname>
-        <lastname>Sample1</lastname>
-        <username>Test1</username>
-    </student>
-</students>
+<?xml version="1.0" encoding="UTF-8"?>
+	
+		
+			
+				Srikanth
+				Pragallapati
+				srikanth4372
+			
+			
+				Raghu
+				Bandi
+				rbandi
+			
+		
+	
+	
+	    
+	        
+	            Hello
+	            Sample
+	            Test
+	        
+	         
+	            Hello1
+	            Sample1
+	            Test1
+	        
+	    
+	
