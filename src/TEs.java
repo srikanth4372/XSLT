@@ -8,9 +8,9 @@ public class TEs {
 
 	static void Transform(){
 
-		String XSLFile = "src/Books.xsl";
-		String INFile = "src/books.xml";
-		String OutFile = "src/bookNames.xml";
+		String XSLFile = "src/investToPortfolio.xsl";
+		String INFile = "src/investments.xml";
+		String OutFile = "src/Portfolio.xml";
 
 		StreamSource xslCode = new StreamSource(new File(XSLFile));
 		StreamSource xmlInput = new StreamSource(new File(INFile));
