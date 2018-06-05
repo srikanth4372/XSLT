@@ -4,21 +4,17 @@ import java.io.File;
 import javax.xml.transform.*;
 import javax.xml.transform.stream.*;
 
-
-
 public class TEs {
-
 
 	static void Transform(){
 
-		String XSLFile = "src/course2Students.xsl";
-		String INFile = "src/courses.xml";
-		String OutFile = "src/students.xml";
+		String XSLFile = "src/Books.xsl";
+		String INFile = "src/books.xml";
+		String OutFile = "src/bookNames.xml";
 
 		StreamSource xslCode = new StreamSource(new File(XSLFile));
 		StreamSource xmlInput = new StreamSource(new File(INFile));
 		StreamResult xmlOut = new StreamResult(new File(OutFile));
-
 
 		//Perform transformation
 		TransformerFactory tf = TransformerFactory.newInstance();
@@ -31,16 +27,11 @@ public class TEs {
 		} catch (TransformerException e) {
 			e.printStackTrace();
 		}
-
-
-
-
 	}
 
 
 	public static void main(String[] args) {
 		Transform();
-		
 		System.out.println("Transformation Done!!! Please check the output file...");
 	}
 }

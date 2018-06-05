@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<books>
+	<book isbn="1-861002-85-8">
+		<title>Professional Java XML Programming</title>
+	</book>
+	<book isbn="1-861003-12-9">
+		<title>XSLT Programmer's Reference</title>
+	</book>
+	<book isbn="0-201-63361-2">
+		<title>Design Patterns</title>
+	</book>
+	<book isbn="1-56592-515-7">
+		<title>Web Design in a Nutshell</title>
+	</book>
+</books>
